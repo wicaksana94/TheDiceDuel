@@ -1,0 +1,34 @@
+body {
+	background-color: #133e53;
+	font-family: sans-serif;
+}
+
+h1.title {
+	color: lightblue;
+	text-align: center;
+}
+
+.content {
+	text-align: center;
+}
+
+div.dice_field {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.player_1, div.player_2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    padding: 3em;
+    color: white;
+    font-size: 2em;
+}
+
+.result {
+	color: white;
+	font-size: 2em;
+}
